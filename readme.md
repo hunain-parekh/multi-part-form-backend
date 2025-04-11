@@ -57,6 +57,8 @@ All fields except the resume are sent as **JSON strings** inside a `multipart/fo
 }
 ```
 
+---
+
 ## 🔧 Installation & Setup Guide
 
 1. **Clone the Repository**
@@ -83,6 +85,7 @@ All fields except the resume are sent as **JSON strings** inside a `multipart/fo
    The server will be running at:
    (http://localhost:5000)
 
+---
 
 ## 📘 API Endpoints
 
@@ -92,6 +95,8 @@ All fields except the resume are sent as **JSON strings** inside a `multipart/fo
 | GET    | /api/user      | Fetch all submitted users        |
 | PUT    | /api/user/:id  | Update user (resume optional)    |
 | DELETE | /api/user/:id  | Delete a user                    |
+
+---
 
 ## 📖 API Documentation (Swagger)
 
@@ -103,6 +108,8 @@ You can:
 - Upload resume directly from Swagger UI  
 - Provide full JSON-form input  
 - View required fields and example data  
+
+---
 
 ## 🧪 Testing via Postman
 
@@ -116,6 +123,8 @@ If Swagger is not sufficient, you can test the API using Postman:
 
 > **Note:** Ensure the resume is in **PDF format only**.
 
+---
+
 ## 📁 Upload Directory
 
 All resumes are automatically saved in the `/uploads/` folder.  
@@ -124,12 +133,16 @@ The file path is stored in the `employmentInfo.resumePath` field.
 You can access resumes by visiting:
 `http://localhost:5000/uploads/<filename.pdf>`
 
+---
+
 ## ✅ Manager/Reviewer Notes
 
 - Swagger is added for self-explanatory testing  
 - Resume handling is isolated and secured (PDF-only)  
 - JSON format ensures flexibility from any modern frontend  
 - Each part of the form is modular, maintainable, and extendable
+
+---
 
 ## 🧑 Author & Details
 
