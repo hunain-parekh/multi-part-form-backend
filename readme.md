@@ -61,7 +61,7 @@ All fields except the resume are sent as **JSON strings** inside a `multipart/fo
 
 1. **Clone the Repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/hunain-parekh/multi-part-form-backend
    cd multi-part-form-backend
    ```
 
